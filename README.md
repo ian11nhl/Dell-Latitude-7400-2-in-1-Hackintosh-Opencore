@@ -18,8 +18,9 @@ Before you begin, ensure you have the following:
 macOS 13 and higher:
 - Open terminal and paste this command: softwareupdate --list-full-installers; echo; echo "Please enter version number you wish to download:"; read REPLY; [ -n "$REPLY" ] && softwareupdate --fetch-full-installer --full-installer-version "$REPLY"
 - Type in your designated macOS version number you wish to download
+
 macOS 12 and lower:
--
+
 ## On Windows
 
 ## On Linux
