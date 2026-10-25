@@ -18,6 +18,8 @@ Before you begin, ensure you have the following:
 macOS 13 and higher:
 - Open terminal and paste this command: softwareupdate --list-full-installers; echo; echo "Please enter version number you wish to download:"; read REPLY; [ -n "$REPLY" ] && softwareupdate --fetch-full-installer --full-installer-version "$REPLY"
 - Type in your designated macOS version number you wish to download
+- Format your USB flash drive as macOS Extended and make the volume label MyVolume
+- Paste this command in the terminal and edit it based on what version you downloaded: sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 
 macOS 12 and lower:
 
