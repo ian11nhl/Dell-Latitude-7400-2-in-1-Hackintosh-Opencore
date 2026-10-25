@@ -12,7 +12,17 @@ Before you begin, ensure you have the following:
 - **Hardware:** Dell Latitude 7400 2-in-1 updated to the latest BIOS version.
 - **Storage:** A 16 GB or larger USB drive.
 - **Optional:** A secondary computer (highly recommended for creating the installer and troubleshooting).
-- **Mindset:** Extreme patience.
+
+**Creating the installer**
+## On macOS
+macOS 13 and higher:
+- Open terminal and paste this command: softwareupdate --list-full-installers; echo; echo "Please enter version number you wish to download:"; read REPLY; [ -n "$REPLY" ] && softwareupdate --fetch-full-installer --full-installer-version "$REPLY"
+- Type in your designated macOS version number you wish to download
+macOS 12 and lower:
+-
+## On Windows
+
+## On Linux
 
 
 
