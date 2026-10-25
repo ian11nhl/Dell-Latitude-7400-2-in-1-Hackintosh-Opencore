@@ -22,10 +22,11 @@ macOS 13 and higher:
 - Paste this command in the terminal and edit it based on what version you downloaded: sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 
 macOS 12 and lower:
-
-## Creating the installer on Windows
-
-## Creating the installer on Linux
+- Coming Soon!
+## Creating the installer on Windows and Linux
+- Download GibmacOS from GitHub
+- Run the .py
+- Use this tutorial: https://kextcache.com/guide-to-create-a-bootable-macos-usb-drive-using-gibmacos-tool/
 
 
 
