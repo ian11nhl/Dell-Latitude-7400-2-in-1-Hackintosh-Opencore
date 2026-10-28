@@ -24,9 +24,15 @@ macOS 13 and higher:
 macOS 12 and lower:
 - Coming Soon!
 ## Creating the installer on Windows and Linux
-- Download GibmacOS from GitHub
-- Run the .py
-- Use this tutorial: https://kextcache.com/guide-to-create-a-bootable-macos-usb-drive-using-gibmacos-tool/
+- Search up com.apple.recovery.boot download and download your designated version
+- Put the folder on the root with your USB
 
+## Next, lets make the Opencore USB
+- Download MountEFI and mount the EFI partition of your USB
+- Grab an EFI from the release section of this repo based on the version of macOS you want to boot, then drag it to the mounted EFI partition
+- Download OCAT and launch it
+- Drag the config.plist file found in the USB/EFI/OC directory into the OCAT pane
+- Go to Pl, and next to the Model Identifier dropdown menu, click Generate. This will generate a SMBIOS so your laptop doesn't conflict with other ones
+- Save your config.plist
 
 
