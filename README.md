@@ -35,4 +35,8 @@ macOS 12 and lower:
 - Go to Pl, and next to the Model Identifier dropdown menu, click Generate. This will generate a SMBIOS so your laptop doesn't conflict with other ones
 - Save your config.plist
 
+## BIOS Settings
+- To enter the BIOS, reboot your PC, when the Dell Logo pops up, mash f2 until you get into the BIOS
+- Coming Soon!
+
 
