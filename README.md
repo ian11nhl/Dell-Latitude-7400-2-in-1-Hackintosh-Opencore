@@ -25,7 +25,7 @@ macOS 12 and lower:
 - Coming Soon!
 ## Creating the installer on Windows and Linux
 - Search up com.apple.recovery.boot download and download your designated version
-- Put the folder on the root with your USB
+- Put the folder on the root of your USB
 
 ## Next, lets make the Opencore USB
 - Download MountEFI and mount the EFI partition of your USB
