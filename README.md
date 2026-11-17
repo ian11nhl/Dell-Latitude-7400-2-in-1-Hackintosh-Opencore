@@ -27,7 +27,7 @@ macOS 12 and lower:
 - Search up com.apple.recovery.boot download and download your designated version
 - Put the folder on the root of your USB
 
-## Next, lets make the Opencore USB
+## Creating the Opencore USB
 - Download MountEFI and mount the EFI partition of your USB
 - Grab an EFI from the release section of this repo based on the version of macOS you want to boot, then drag it to the mounted EFI partition
 - Download OCAT and launch it
@@ -36,7 +36,29 @@ macOS 12 and lower:
 - Save your config.plist
 
 ## BIOS Settings
-- To enter the BIOS, reboot your PC, when the Dell Logo pops up, mash f2 until you get into the BIOS
-- Coming Soon!
+- To enter the BIOS, reboot your PC, and when the Dell Logo pops up, mash f2 until you get into the BIOS
+- Find System Configuration, go to SATA Operation, and click AHCI
+- Go to Security, Secure Boot, and uncheck Enable SecureBoot
+- Click save
 
+## Booting the installer
+- Mash f12 when Dell logo appears
+- Select your USB
+- Move your trackpad until a menu appears
+- Press Space
+- Select the installer and press enter
+- When it boots, click the second option in the top bar, and click the only option that appears
+- Select your language
+- Open Disk Utility and erase your drive you want to install macOS to as APFS
+- Exit Disk Utility and click Install macOS
+- Go through the steps, and select the drive you erased
+- After that, it will install, and it will reboot a couple times
+- After that you will be greeted with the setup screen
 
+## How to boot macOS
+- Mash f12 when Dell logo appears
+- Select your USB
+- Move your trackpad until a menu appears
+- Select your macOS disk and press enter
+
+Post Install Coming Soon!
